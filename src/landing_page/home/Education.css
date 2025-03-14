@@ -1,0 +1,13 @@
+
+/* .col-lg-6{
+    display: flex;
+} */
+
+.EduImg img{
+  width: 65%; 
+  margin: 0 5rem !important;
+
+}
+.EduTxt{
+    margin-left: 1rem;
+}

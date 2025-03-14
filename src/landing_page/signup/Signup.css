@@ -1,0 +1,48 @@
+.signup-container{
+    /* background-color: rgb(37, 128, 207); */
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* background-image: url("C:\Hehehe\Major2-EquiXchange\frontend\public\media\images\user-bg.avif"); */
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.signup-container .signup-page {
+    width: 50%;
+    height: 80%;
+    /* background-color: rgb(211, 211, 211); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.signup-page .signup-heading{
+    width: 100%;
+    height: 15%;
+    /* background-color: black; */
+    color: rgb(3, 3, 3);
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+.signup-page .signup-form{
+    width: 100%;
+    height: 80%;
+    /* background-color: black; */
+}
+
+.signup-btn{
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px){
+    .signup-heading{
+        font-size: 1.7rem !important;
+    }
+    .signup-btn{
+        margin-top: 1px !important;
+        margin-bottom: 10px !important;
+        width: 100% !important;
+    }
+}

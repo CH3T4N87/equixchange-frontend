@@ -1,0 +1,43 @@
+.team-animation{
+    width: 30rem;
+}
+.team-text{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.team-text p{
+    font-size: large;
+}
+.team-profile{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: rgb(218, 216, 216);
+    object-fit: cover;
+    overflow: hidden;
+}
+.team-profile img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.team-details{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* background-color: antiquewhite; */
+    margin-left: 2.5rem;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .team{
+        width: 100%;
+        /* background-color: black; */
+        /* display: flex !important; */
+        /* flex-direction: row; */
+    }
+}
