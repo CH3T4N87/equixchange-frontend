@@ -46,7 +46,7 @@ function Login() {
             );
 
             if (data.success) {
-                window.location.href = "http://localhost:3001/";
+                window.location.href = "https://equixchange.vercel.app/";
             } else {
                 setErrorMessage(data.message); // Set error message from backend
             }
