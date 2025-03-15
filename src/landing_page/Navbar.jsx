@@ -21,7 +21,7 @@ function Navbar() {
   const handleLogout = () => {
     Cookies.remove('token');
     setLoggedIn(false);
-    window.location.href = '/login';
+    window.location.href = '/';
 };
  const goToDashboard = ()=>{
   window.location.href ="http://localhost:3000";
