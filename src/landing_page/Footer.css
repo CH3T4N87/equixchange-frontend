@@ -1,0 +1,29 @@
+.footer-icons i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.footer-links a{
+    color: #000;
+    opacity: 0.9;
+    font-size: 0.9rem;
+}
+.footer-info p{
+    opacity: 0.8;
+    font-size: 0.7rem;
+}
+.developer{
+    font-size: 0.8rem;
+    /* margin-bottom: 0; */
+    /* text-decoration: underline; */
+}
+.developer a{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-links h5{
+        margin-top: 2rem;
+        font-weight: bold;
+    }
+  
+}
