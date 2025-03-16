@@ -39,7 +39,7 @@ function Login() {
             );
 
             if (data.success) {
-                window.location.href = "https://equixchange.onrender.com";
+                window.location.href = "https://equixchange.vercel.app";
             } else {
                 setErrorMessage(data.message); // Set error message from backend
             }
