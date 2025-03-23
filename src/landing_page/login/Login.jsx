@@ -41,7 +41,7 @@ function Login() {
             
             if (data.success) {
                 localStorage.setItem("token", data.token);
-                window.location.href = "https://euixchange.vercel.app";
+                window.location.href = "https://equixchange.vercel.app";
                 // console.log(localStorage.getItem("token"));
                 
             } else {
