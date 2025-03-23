@@ -37,7 +37,7 @@ function Signup() {
         e.preventDefault();
         try {
             const { data } = await axios.post(
-                "https://euixchange.onrender.com/signup",
+                "https://equixchange.onrender.com/signup",
                 {
                     ...inputValue,
                 },
