@@ -1,0 +1,25 @@
+/* width:"15%",margin:"0 auto" */
+
+.signup-btn{
+    /* display: none !important; */
+    width: 15%;
+    margin: 0 auto !important;
+    /* background-color: aqua; */
+}
+
+@media only screen and (max-width: 767px) {
+.signup-btn{
+    width: 10rem !important;
+    /* border-color: #000000 !important; */
+    /* color: rgb(0, 0, 0) !important; */
+}
+.container img{
+    padding: 0;
+    margin-bottom: 0 !important;
+}
+
+}
+
+.container h1 , .container p , .signup-btn{
+    font-family: "SUSE", sans-serif !important;
+}

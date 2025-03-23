@@ -1,0 +1,33 @@
+/* .awards{
+    background-color: #dc7171;
+}
+.awards-para{
+    background-color: antiquewhite;
+} */
+
+.pressLogoImg{
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .awards{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .largestBrokerImg{
+        width: 30rem;
+        text-align: center;
+    }
+    .largestBrokerImg img{
+        width: 20rem;
+    }
+    .largestBrokerTxt{
+        margin-left: 1rem;
+        width: 25rem;
+        /* text-align: center; */
+    }
+    .largestBrokerTxt h1, .largestBrokerTxt div , .largestBrokerTxt p{
+        width: 22rem;
+    }
+}

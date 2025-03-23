@@ -1,0 +1,14 @@
+@media only screen and (max-width: 767px){
+    .leftSection-Img{
+        width: 100%;
+    }
+    .leftSection-Img img{
+        width: 100%;
+    }
+    .leftSection-text {
+        margin-left: 1rem;
+    }
+    .leftSection-text p{
+        width: 100%;
+    }
+}

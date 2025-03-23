@@ -1,0 +1,19 @@
+.support-hero{
+    background-color: #387ed1;
+    color: #fff;
+    /* font-size: 1.6rem; */
+}
+.support-links{
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+.support-links span {
+    margin-right: 2.5rem;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
+@media only screen and (max-width: 767px) {
+     .support-hero-row{
+        margin-left: 1rem;
+    }
+}

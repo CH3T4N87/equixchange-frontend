@@ -1,0 +1,26 @@
+.StatImgLinks div img{ 
+ width: 80%;
+}
+.StatImgLinks div a{ 
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.StatImgLinks div{
+    text-align: center;
+}
+
+.statLinks{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-arrow-right{
+    font-size: 0.8rem;
+}
+@media only screen and (max-width: 767px){
+    .StatsTxt{
+        margin-left: 1rem;
+    }
+    
+}
